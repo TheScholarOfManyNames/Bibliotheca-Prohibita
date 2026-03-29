@@ -3,7 +3,7 @@ let allBooks = [];
 // Fetch data from JSON file
 async function loadLibrary() {
   try {
-    const response = await fetch('data/books.json');
+    const response = await fetch('./data/books.json');
     allBooks = await response.json();
     renderLibrary(allBooks);
   } catch (error) {
