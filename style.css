@@ -14,6 +14,7 @@ header {
 }
 
 header h1 { font-size: 2.5rem; margin-bottom: 8px; }
+header h1 { font-size: 1.5rem; margin-bottom: 5px; }
 header p  { font-size: 1rem; opacity: 0.85; }
 
 /* Controls Bar */
