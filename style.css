@@ -1,0 +1,134 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f6f9;
+  color: #333;
+}
+
+header {
+  background: #1a73e8;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 { font-size: 2.5rem; margin-bottom: 8px; }
+header p  { font-size: 1rem; opacity: 0.85; }
+
+/* Controls Bar */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 24px;
+  background: white;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  justify-content: center;
+}
+
+.controls input,
+.controls select {
+  padding: 10px 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  min-width: 220px;
+}
+
+.controls input:focus,
+.controls select:focus {
+  outline: none;
+  border-color: #1a73e8;
+}
+
+/* Results Info */
+.results-info {
+  text-align: center;
+  padding: 12px;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+/* Book Grid */
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 24px;
+  padding: 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Book Card */
+.book-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.book-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.14);
+}
+
+.book-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.book-info { padding: 16px; }
+.book-info h3 { font-size: 1rem; margin-bottom: 4px; }
+.book-info .author { color: #666; font-size: 0.85rem; margin-bottom: 8px; }
+
+.book-info .category {
+  display: inline-block;
+  background: #e8f0fe;
+  color: #1a73e8;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.book-info .description {
+  font-size: 0.85rem;
+  color: #555;
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.book-info a {
+  display: inline-block;
+  background: #1a73e8;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  transition: background 0.2s;
+}
+
+.book-info a:hover { background: #1558b0; }
+
+/* No Results */
+.no-results {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+  grid-column: 1 / -1;
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  padding: 24px;
+  background: #fff;
+  color: #999;
+  font-size: 0.85rem;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
