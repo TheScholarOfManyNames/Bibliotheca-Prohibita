@@ -1,14 +1,26 @@
 [
   {
     "id": 1,
-    "title": "1984",
+    "title": "Nineteen Eighty-Four",
     "author": "George Orwell",
     "category": "Literature",
     "year": 1949,
-    "description": "A Vietnamese translation of Goerge Orwell",
-    "link": "./books/1984-tieng-Viet.pdf",
-    "cover": "./assets/images/1984-thuviensach.jpg",
+    "description": "A chilling vision of a totalitarian future where a ruthless government controls every aspect of life — including thought itself. Winston Smith's quiet rebellion against the all-seeing Big Brother is one of literature's most powerful warnings about power, surveillance, and truth.",
+    "link": "./books/1984-english.pdf",
+    "cover": "./assets/images/1984-english.jpg",
     "fileType": "PDF",
-    "fileSize": "1.76 MB"
+    "fileSize": "2.72 MB"
+  },
+  {
+    "id": 2,
+    "title": "Một Chín Tám Tư",
+    "author": "George Orwell",
+    "category": "Literature",
+    "year": 1949,
+    "description": "Một viễn cảnh đáng sợ về tương lai toàn trị, nơi chính quyền độc đoán kiểm soát mọi mặt của cuộc sống — kể cả suy nghĩ. Cuộc nổi loạn thầm lặng của Winston Smith chống lại Anh Cả là một trong những lời cảnh báo mạnh mẽ nhất của văn học về quyền lực, sự giám sát và sự thật.",
+    "link": "./books/1984-tieng-Viet.pdf",
+    "cover": "./assets/images/1984-tieng-Viet.jpg",
+    "fileType": "PDF",
+    "fileSize": "1.00 MB"
   }
 ]
