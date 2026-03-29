@@ -1,2 +1,2 @@
-# Bibliotheca
-A personal digital library project
+# Bibliotheca Prohibita
+A digital library for forbidden works and forbidden knowledge
