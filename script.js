@@ -60,7 +60,7 @@ function renderLibrary(books) {
         <p class="author">by ${book.author} · ${book.year}</p>
         <span class="category">${book.category}</span>
         <p class="description">${book.description}</p>
-        <a href="${book.link}" target="_blank">Open Resource →</a>
+        <a href="${book.link}" target="_blank">Open Book →</a>
       </div>
     </div>
   `).join('');
