@@ -32,7 +32,9 @@ async function loadLibrary() {
 // Build language dropdown from whatever languages exist in the data
 function populateLanguageFilter(books) {
   const select = document.getElementById('languageFilter');
-  const languages = [...new Set(books.map(b => b.language).filter(Boolean))].sort();
+  const seen = new Map();
+  books.forEach(b => { if (b.language && !seen.has(b.language)) seen.set(b.language, b.id); });
+  const languages = [...seen.entries()].sort((a, b) => a[1] - b[1]).map(([lang]) => lang);
 
   languages.forEach(lang => {
     const opt = document.createElement('option');
