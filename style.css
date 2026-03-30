@@ -145,6 +145,17 @@ footer {
   margin-left: 6px;
 }
 
+.language-badge {
+  display: inline-block;
+  background: #e6f4ea;
+  color: #137333;
+  font-size: 0.75rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  margin-left: 6px;
+}
+
 .card-actions {
   display: flex;
   gap: 8px;
