@@ -169,3 +169,23 @@ footer {
 .btn-download:hover {
   background: #2d8f47 !important;
 }
+
+.fb-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  color: #1877f2;
+  transition: color 0.2s, transform 0.2s;
+}
+
+.fb-link:hover {
+  color: #0f5bbf;
+  transform: translateY(-2px);
+}
+
+.fb-icon {
+  width: 28px;
+  height: 28px;
+  fill: currentColor;
+}
