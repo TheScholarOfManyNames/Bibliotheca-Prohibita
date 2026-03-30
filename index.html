@@ -17,6 +17,10 @@
   <!-- Search & Filter Controls -->
   <div class="controls">
     <input type="text" id="searchInput" placeholder="Search by title or author..." />
+    <select id="languageFilter">
+      <option value="all">All Languages</option>
+      <!-- populated dynamically by script.js -->
+    </select>
     <select id="categoryFilter">
       <option value="all">All Categories</option>
       <option value="Technology">Technology</option>
@@ -44,7 +48,7 @@
   </div>
 
   <footer>
-    <p>© 2026 Bibliotheca Prohibita · Built with Github Pages</p>
+    <p>© 2026 Index Librorum Prohibitorum · Built with Github Pages</p>
   </footer>
 
   <script src="script.js"></script>
