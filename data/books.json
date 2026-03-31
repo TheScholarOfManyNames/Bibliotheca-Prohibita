@@ -10,7 +10,7 @@
     "link": "./books/1984-english.pdf",
     "cover": "./assets/images/1984-english.jpg",
     "fileType": "PDF",
-    "fileSize": "2.72 MB"
+    "fileSize": "2.73 MB"
   },
   {
     "id": 2,
@@ -23,6 +23,32 @@
     "link": "./books/1984-tieng-Viet.pdf",
     "cover": "./assets/images/1984-tieng-Viet.jpg",
     "fileType": "PDF",
-    "fileSize": "1.00 MB"
+    "fileSize": "1.01 MB"
+  },
+  {
+    "id": 3,
+    "title": "Animal Farm",
+    "author": "George Orwell",
+    "category": "Literature",
+    "year": 1945,
+    "description": "A deceptively simple fable about farm animals who overthrow their human farmer, only to find their new pig leaders growing ever more corrupt and tyrannical. Orwell's razor-sharp allegory lays bare the mechanics of revolution, propaganda, and the slow rot of idealism into oppression — ending with the chilling reminder that some are always \"more equal than others.\"",
+    "language": "English",
+    "link": "./books/AnimalFarm.pdf",
+    "cover": "./assets/images/AnimalFarm.jpg",
+    "fileType": "PDF",
+    "fileSize": "119 KB"
+  },
+  {
+    "id": 4,
+    "title": "Trại Súc Vật",
+    "author": "George Orwell",
+    "category": "Literature",
+    "year": 1945,
+    "description": "Một câu chuyện ngụ ngôn tưởng chừng đơn giản về những con vật trong trang trại nổi dậy lật đổ người chủ, chỉ để chứng kiến những con lợn lãnh đạo mới ngày càng tha hóa và độc tài hơn. Với lối ẩn dụ sắc bén, George Orwell đã phơi bày trần trụi cơ chế của cách mạng, sự tuyên truyền và sự mục rữa dần dần khiến lý tưởng trở thành áp bức, khép lại bằng lời nhắc nhở lạnh người rằng một số kẻ luôn \"bình đẳng hơn những kẻ khác.\"",
+    "language": "Vietnamese",
+    "link": "./books/TraiSucVat.pdf",
+    "cover": "./assets/images/TraiSucVat.jpg",
+    "fileType": "PDF",
+    "fileSize": "438 KB"
   }
 ]
