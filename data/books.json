@@ -50,5 +50,31 @@
     "cover": "./assets/images/TraiSucVat.jpg",
     "fileType": "PDF",
     "fileSize": "438 KB"
+  },
+  {
+    "id": 5,
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "category": "Literature",
+    "year": 1932,
+    "description": "Set in a scientifically perfected future where humanity is engineered for contentment, Huxley's dystopia asks a deeply unsettling question: What if the greatest threat to freedom is not force, but pleasure? In a world of soma, conditioning, and manufactured happiness, Bernard Marx dares to want something more — and discovers the terrifying price of authenticity.",
+    "language": "English",
+    "link": "./books/BraveNewWorld.pdf",
+    "cover": "./assets/images/BraveNewWorld.jpg",
+    "fileType": "PDF",
+    "fileSize": "803 KB"
+  },
+  {
+    "id": 6,
+    "title": "Thế Giới Mới Tươi Đẹp",
+    "author": "Aldous Huxley",
+    "category": "Literature",
+    "year": 1932,
+    "description": "Lấy bối cảnh trong một tương lai được hoàn thiện bằng khoa học, nơi nhân loại được thiết kế để luôn sống trong mãn nguyện, xã hội phản địa đàng của Huxley đặt ra một câu hỏi đầy ám ảnh: Điều gì sẽ xảy ra nếu mối đe dọa lớn nhất đối với tự do không phải là bạo lực, mà là khoái lạc? Trong một thế giới của soma, sự lập trình cảm xúc, và hạnh phúc nhân tạo, Bernard Marx dám khao khát nhiều hơn — và khám phá ra cái giá đáng sợ của sự chân thực.",
+    "language": "Vietnamese",
+    "link": "./books/TheGioiMoiTuoiDep.pdf",
+    "cover": "./assets/images/TheGioiMoiTuoiDep.jpg",
+    "fileType": "PDF",
+    "fileSize": "1.95 MB"
   }
 ]
