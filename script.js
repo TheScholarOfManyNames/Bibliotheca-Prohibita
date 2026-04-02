@@ -62,13 +62,16 @@ function renderLibrary(books) {
     return;
   }
 
-  grid.innerHTML = books.map(book => `
+  grid.innerHTML = books.map(book => {
+    const cats = book.categories ?? (book.category ? [book.category] : []);
+    const categoryBadges = cats.map(c => `<span class="category">${c}</span>`).join('');
+    return `
     <div class="book-card">
       <img src="${book.cover}" alt="${book.title}" />
       <div class="book-info">
         <h3>${book.title}</h3>
         <p class="author">by ${book.author} · ${book.year}</p>
-        <span class="category">${book.category}</span>
+        ${categoryBadges}
         ${book.language  ? `<span class="language-badge">${book.language}</span>` : ''}
         ${book.fileType  ? `<span class="file-badge">${book.fileType}${book.fileSize ? ' · ' + book.fileSize : ''}</span>` : ''}
         <p class="description">${book.description}</p>
@@ -78,7 +81,8 @@ function renderLibrary(books) {
         </div>
       </div>
     </div>
-  `).join('');
+  `;
+  }).join('');
 }
 
 // Filter and sort
@@ -92,7 +96,8 @@ function applyFilters() {
     const matchesSearch   = book.title.toLowerCase().includes(query) ||
                             book.author.toLowerCase().includes(query);
     const matchesLanguage = language === 'all' || book.language === language;
-    const matchesCategory = category === 'all' || book.category === category;
+    const cats = book.categories ?? (book.category ? [book.category] : []);
+    const matchesCategory = category === 'all' || cats.includes(category);
     return matchesSearch && matchesLanguage && matchesCategory;
   });
 
